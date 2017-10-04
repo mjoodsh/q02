@@ -18,6 +18,10 @@ int main()
   */
 
   //PUT YOUR CODE BELOW THIS LINE
+  for(int x=0;x<wordGrid.size();y++)
+    for(int y=0;y<wordGrid[x].size();y++)
+      cout<<x<<" "<<y<<"is"<<worldGrid[x][y]<<endl;
+
   //that prints each element of the matrix in the
   //following format:
   //Row _ Column _ is _
